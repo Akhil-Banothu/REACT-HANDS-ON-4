@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  background-color: darkblue;
+  color: white;
+  font-size: 30px;
+  font-family: cursive;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.navbar-link:hover {
+   color: pink;
+}
